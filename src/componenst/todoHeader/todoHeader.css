@@ -1,0 +1,10 @@
+.todo-header{
+    width: auto;
+    height: auto;
+}
+.todo-name{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: black;
+    margin: 0;
+}

@@ -1,0 +1,19 @@
+.tab-content{
+    width: 100%;
+}
+.form-check{
+    padding: 0;
+}
+.delete-all{
+    background-color: red;
+    color: white;
+    border-radius: 0;
+    justify-content: center;
+}
+.form-check button{
+    background-color: none;
+}
+.form-check span{
+    margin-left: 8px;
+    margin-bottom: 4px;
+}

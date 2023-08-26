@@ -1,0 +1,51 @@
+
+.TodoNavTab{
+    width: 100%;
+}
+.group-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid rgb(166, 166, 166) ;
+}
+.nav-tabs{
+    --bs-nav-tabs-border-width: none;
+    --bs-nav-tabs-border-radius: none;
+}
+.nav-link{
+    height: 40px;
+    border-radius: 0px;
+    color: black;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    height: 39px;
+    color: black;
+    border-bottom: 2px solid blue;
+    outline: none;
+}
+.nav-link:focus, .nav-link:hover {
+    color: white;
+    outline: none;
+}
+.btn-add{
+    background-color: rgb(0, 145, 255);
+    color: white;
+    font-size: 14px;
+}
+.group-check{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 4px;
+}
+.group-check>button{
+    padding:0;
+    font-size: 12px;
+    border-radius: 0;
+    background-color: transparent;
+    color: black;
+}
+.tab-content{
+    margin: 18px 0;
+}
+
