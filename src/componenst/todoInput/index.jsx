@@ -6,7 +6,7 @@ function TodoInput() {
   const {hendlerValueInput,onClickAddButton} = useContext(TodoContext)
   return (
     <div className='form-input d-flex'>
-        <input type="text" placeholder='Enter new task' onChange={hendlerValueInput} />
+        <input type="text" placeholder='add details' onChange={hendlerValueInput} />
         <button className='btn-add' onClick={onClickAddButton}>ADD</button>
     </div>
   )
